@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             clicked++
             button.setText(when(clicked){
-                1 -> "You have pushed me 1 time!"
+                1 -> "@string/pushed_me_once"
                 else -> "You have pushed me $clicked times!"
             })
 
